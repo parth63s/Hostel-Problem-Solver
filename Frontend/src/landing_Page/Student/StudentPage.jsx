@@ -1,6 +1,6 @@
 import React from 'react';
 import NavBar from '../NavBar';
-import GroupOfWorker from './Workers/GroupOfWorker';
+import GroupOfWorker from './GroupOfWorker';
 import Problems from './Problems';
 import Footer from '../Footer';
 

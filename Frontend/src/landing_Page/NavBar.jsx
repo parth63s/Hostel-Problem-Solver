@@ -2,7 +2,7 @@ import React from "react";
 
 function NavBar() {
   return (
-    <nav className="navbar navbar-dark bg-dark fixed-top sticky-top navbar-light">
+    <nav className="navbar navbar-dark bg-dark fixed-top sticky-top">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
           <i
