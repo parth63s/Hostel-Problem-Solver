@@ -1,7 +1,4 @@
 import React from 'react';
-import Carpenter from './Carpenter';
-import Electrician from './Electrician';
-import Plumber from './Plumber';
 
 function GroupOfWorker() {
     return ( 
