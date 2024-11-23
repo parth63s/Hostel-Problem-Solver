@@ -1,0 +1,64 @@
+.double-border {
+    border: 3px double black; /* Outer border */
+    border-collapse: separate; /* Ensures space between cell borders */
+    border-spacing: 0; /* Removes space between cells */
+    border-radius: 0.25rem;
+}
+
+.double-border th, .double-border td {
+    border: 2px double black; /* Inner cell borders */
+    padding: 10px; /* Add padding to table cells */
+    border-radius: 0.25rem;
+}
+
+
+.min-background{
+    box-shadow: 1px 1px 5px black;
+}
+
+@media (max-width:768px) {
+    table {
+        font-size: auto;
+    }
+    .table-container {
+        overflow-x: auto;
+        display: block;
+        width: 100%;
+    }
+    
+    .sticky-column {
+        position: sticky;
+        left: 0;
+        background: #f4f4f4; /* Optional: Add a background color to distinguish */
+        z-index: 1; /* Ensure it stays on top */
+      }
+    
+}
+
+
+
+/* 
+@media (max-width: 768px) {
+    table,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+        display: block;
+    }
+    tr {
+        margin-bottom: 10px;
+    }
+    td {
+        padding-left: 50%;
+        text-align: right;
+    }
+    td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        text-align: left;
+        font-weight: bold;
+    }
+} */
