@@ -1,0 +1,20 @@
+.double-border {
+    border: 3px double black; /* Outer border */
+    border-collapse: separate; /* Ensures space between cell borders */
+    border-spacing: 0; /* Removes space between cells */
+    border-radius: 0.25rem;
+}
+
+/* .double-border th, .double-border td {
+    border: 2px double black;
+    padding: 10px;
+    border-radius: 0.25rem;
+} */
+
+.min-background{
+    box-shadow: 1px 1px 5px black;
+}
+
+body {
+    background-color: #faf7f0;
+}
