@@ -1,10 +1,17 @@
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> Student-Component
 import React from "react";
 
 function NavBar() {
   return (
+<<<<<<< HEAD
     <nav className="navbar navbar-dark bg-dark fixed-top sticky-top">
+=======
+    <nav className="navbar navbar-dark fixed-top sticky-top">
+>>>>>>> Student-Component
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
           <i

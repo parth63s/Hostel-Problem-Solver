@@ -1,0 +1,77 @@
+.double-border {
+    border: 3px double black; /* Outer border */
+    border-collapse: separate; /* Ensures space between cell borders */
+    border-spacing: 0; /* Removes space between cells */
+    border-radius: 0.25rem;
+}
+
+.double-border th, .double-border td {
+    border: 2px double black; /* Inner cell borders */
+    padding: 10px; /* Add padding to table cells */
+    border-radius: 0.25rem;
+}
+
+.worker-img:hover {
+    opacity: 1;
+    cursor: pointer;
+    box-shadow: 3px 3px 10px black;
+}
+
+.worker-img {
+    opacity: 0.9;
+    box-shadow: 1.5px 1.5px 5px black;
+}
+
+.min-background{
+    box-shadow: 1px 1px 5px black;
+}
+
+/* footer */
+
+.f-info-socials, .f-info-brand, .f-info-links {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-info-brand {
+    margin-left: 0.5rem;
+}
+.f-info-socials {
+    font-size: 1.3rem;
+    margin-right: 1rem;
+}
+
+.f-info-links a {
+    text-decoration: none;
+    margin-left: 0.5rem;
+}
+.f-info-links a:hover {
+    text-decoration: underline;
+}
+
+.f-info-socials i {
+    margin-left: 0.5rem;
+}
+
+.f-info {
+    text-align: center;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.table {
+    overflow: scroll;
+}
+
+
+.navbar {
+    background-color: #2F4F4F;
+}
