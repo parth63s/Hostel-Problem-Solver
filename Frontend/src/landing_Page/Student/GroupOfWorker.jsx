@@ -1,10 +1,4 @@
 import React from 'react';
-<<<<<<< HEAD
-
-function GroupOfWorker() {
-    return ( 
-        <h1>GroupOfWorker</h1>
-=======
 // import Carpenter from './Carpenter';
 // import Electrician from './Electrician';
 // import Plumber from './Plumber';
@@ -20,7 +14,6 @@ function GroupOfWorker() {
                 <Worker image="media/images/CarPenter.jpg" work="CarPenter"/>
             </div>
         </div>
->>>>>>> Student-Component
      );
 }
 

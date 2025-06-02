@@ -1,16 +1,9 @@
 import React from "react";
-<<<<<<< HEAD
 import "./Footer.css";
 
 function Footer() {
   return (
-    <footer className="mt-5 border-top min-background pt-3 bg-white fixed-bottom" >
-=======
-
-function Footer() {
-  return (
     <footer className="mt-5 border-top min-background pt-3 bg-white" >
->>>>>>> Student-Component
       <div class="f-info">
         <div class="f-info-socials ">
           <i class="fa-regular fa-copyright"></i>

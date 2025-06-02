@@ -26,8 +26,6 @@
     box-shadow: 1px 1px 5px black;
 }
 
-/* footer */
-
 .f-info-socials, .f-info-brand, .f-info-links {
     width: 100%;
     display: flex;
@@ -75,3 +73,23 @@
 .navbar {
     background-color: #2F4F4F;
 }
+
+@media (max-width:768px) {
+    table {
+        font-size: auto;
+    }
+    .table-container {
+        overflow-x: auto;
+        display: block;
+        width: 100%;
+    }
+    
+    .sticky-column {
+        position: sticky;
+        left: 0;
+        background: #f4f4f4; /* Optional: Add a background color to distinguish */
+        z-index: 1; /* Ensure it stays on top */
+      }
+    
+}
+

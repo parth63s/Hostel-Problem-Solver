@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-import React from 'react';
-
-function ProblemForm() {
-    return ( 
-        <h1>ProblemFrom</h1>
-     );
-}
-
-export default ProblemForm;
-=======
 import React from "react";
 import { useState } from "react";
 import axios from "axios";
@@ -156,4 +145,3 @@ function ProblemForm({worker}) {
 }
 
 export default ProblemForm;
->>>>>>> Student-Component

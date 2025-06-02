@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-import React from 'react';
-
-function Worker() {
-    return ( 
-        <h1>Worker</h1>
-     );
-}
-
-export default Worker;
-=======
 import React from "react";
 import {Link} from "react-router-dom";
 
@@ -29,4 +18,4 @@ function Worker({ image, work }) {
 }
 
 export default Worker;
->>>>>>> Student-Component
+
