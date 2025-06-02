@@ -1,17 +1,20 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import './index.css'
 import ProblemFormPage from './landing_Page/Student/Form/ProblemFormPage'
-import StudentPage from './landing_Page/Student/StudentPage';
+import StudentPage from './landing_Page/Student/StudentPage'
+import LoginPage from './landing_Page/Login/LoginPage'
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
-    <Routes>
-      <Route path="/studentPanel" element={<StudentPage/>}> </Route>
-      <Route path="/studentPanel/problem-from" element={<ProblemFormPage/>}> </Route>
-
-    </Routes>
-  </BrowserRouter>
+  <StrictMode>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/studentPanel" element={<StudentPage />} />
+        <Route path="/studentPanel/problem-form" element={<ProblemFormPage />} />
+        <Route path="/*" element={<LoginPage/>} />
+      </Routes>
+    </BrowserRouter>
+  </StrictMode>
 )

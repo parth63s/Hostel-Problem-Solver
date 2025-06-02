@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 
 function Worker({ image, work }) {
   return (
-    <div className="col-4 border-success">
+    <div className="col border-success">
       <Link to={`/studentPanel/problem-from?work=${work}`}>
         <img
           src={image}

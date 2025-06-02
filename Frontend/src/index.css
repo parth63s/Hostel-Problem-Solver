@@ -65,3 +65,13 @@
     bottom: 0;
     width: 100%;
 }
+
+
+.table {
+    overflow: scroll;
+}
+
+
+.navbar {
+    background-color: #2F4F4F;
+}
