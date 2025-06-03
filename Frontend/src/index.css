@@ -21,6 +21,11 @@
     opacity: 0.9;
     box-shadow: 1.5px 1.5px 5px black;
 }
+/* .double-border th, .double-border td {
+    border: 2px double black;
+    padding: 10px;
+    border-radius: 0.25rem;
+} */
 
 .min-background{
     box-shadow: 1px 1px 5px black;
@@ -91,5 +96,9 @@
         z-index: 1; /* Ensure it stays on top */
       }
     
+}
+
+body {
+    background-color: #faf7f0;
 }
 
