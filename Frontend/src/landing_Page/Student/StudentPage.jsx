@@ -7,10 +7,9 @@ import Footer from '../Footer';
 function StudentPage() {
     return ( 
         <div style={{background:"#FAF7F0"}} >
-            <NavBar/>
             <GroupOfWorker/>
             <Problems/>
-            <Footer/>
+            
         </div>
      );
 }

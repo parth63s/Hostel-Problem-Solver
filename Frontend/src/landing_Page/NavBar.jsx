@@ -1,6 +1,17 @@
 import React from "react";
+import axios from 'axios';
+import { useNavigate } from 'react-router-dom';
 
 function NavBar() {
+   const navigate = useNavigate();
+
+  const handleLogOut = async () => {
+    const res = await axios.get('http://localhost:8080/logout', { withCredentials: true });
+    if(res.status === 200) {
+      console.log("LogOut successful");
+      navigate('/');
+    }
+  }
   return (
 
     <nav className="navbar navbar-dark fixed-top sticky-top">
@@ -71,7 +82,7 @@ function NavBar() {
           <div className="offcanvas-body">
             <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <a className="nav-link active" aria-current="page" onClick={handleLogOut}>
                   Logout
                 </a>
               </li>

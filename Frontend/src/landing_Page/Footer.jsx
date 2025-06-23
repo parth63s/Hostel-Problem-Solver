@@ -4,14 +4,14 @@ import "./Footer.css";
 function Footer() {
   return (
     <footer className="mt-5 border-top min-background pt-3 bg-white" >
-      <div class="f-info">
-        <div class="f-info-socials ">
-          <i class="fa-regular fa-copyright"></i>
-          <i class="fa-brands fa-instagram"></i>
+      <div className="f-info">
+        <div className="f-info-socials ">
+          <i className="fa-regular fa-copyright"></i>
+          <i className="fa-brands fa-instagram"></i>
         </div>
-        <div class="f-info-brand pt-2">Hostel Wardens Limited</div>
-        <div class="f-info-links pt-2 pb-3">
-          <a href="/help" class>
+        <div className="f-info-brand pt-2">Hostel Wardens Limited</div>
+        <div className="f-info-links pt-2 pb-3">
+          <a href="/help" >
             Help
           </a>
           <a href="/privacy">Privacy</a>

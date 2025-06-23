@@ -1,6 +1,3 @@
-import React from "react";
-import NavBar from "../../NavBar";
-import Footer from "../../Footer";
 import ProblemForm from "./ProblemForm";
 import { useLocation } from 'react-router-dom';
 
@@ -10,9 +7,9 @@ function ProblemFormPage() {
   const work = queryParams.get("work");
   return (
     <div style={{ backgroundColor: "#FAF7F0" }}>
-      <NavBar />
+      
       <ProblemForm worker={work} />
-      <Footer />
+     
     </div>
   );
 }

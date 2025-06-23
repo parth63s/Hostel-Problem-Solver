@@ -1,4 +1,3 @@
-import React from "react";
 import { useState } from "react";
 import axios from "axios";
 
@@ -72,7 +71,7 @@ function ProblemForm({worker}) {
           <input
             type="tel"
             className="form-control"
-            id="moblie"
+            id="mobile"
             pattern="[0-9]{10}"
             onChange={handleChange}
           />

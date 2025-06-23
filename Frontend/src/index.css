@@ -102,3 +102,10 @@ body {
     background-color: #faf7f0;
 }
 
+
+.problem-column {
+  max-width: 180px; /* adjust width as needed */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

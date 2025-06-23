@@ -6,9 +6,9 @@ import Footer from '../Footer';
 function WorkerPage() {
     return ( 
         <div>
-            <NavBar/>
+            
             <Problems/>
-            <Footer/>
+            
         </div>
      );
 }

@@ -6,9 +6,7 @@ import Problems from './Problems';
 function WardenPage() {
     return ( 
         <div style={{backgroundColor:"#FAF7F0"}}>
-            <NavBar/>
             <Problems/>
-            <Footer/>
         </div>
      );
 }
